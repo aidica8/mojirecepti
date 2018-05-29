@@ -1,0 +1,183 @@
+body, html {
+font-family: 'Inconsolata', monospace;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.pozadina {
+	background: url("cupcake_img.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+.pozadina2 {
+	background: url("pink.jpg");
+	background-position: left top;
+    background-repeat: repeat;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #7a6f72;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #ff1a40;
+}
+h1,h2 {
+	margin: 0.5em;
+	font-size: 2em;
+	color: white;
+}
+h2 {
+	margin: 0.5em;
+	font-size: 1.5em;
+	color: white;
+}
+h3 {
+	margin: 0.5em;
+	font-size: 1em;
+	color: white;
+}
+h4 {
+	text-align:center;
+	font-size: 2.5em;
+	color: white;
+	font-style: italic;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+main p {
+	color: white;
+	text-decoration: none;
+}
+main a {
+	color: #e6e6e6;
+	text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid white;
+	color: white;
+}
+figcaption {
+	font-size: 90%;
+}
+footer p {
+	color: white;
+	text-decoration: none;
+}
+.vijesti img {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+	margin: 0 0 0 1em;
+}
+.vijesti time {
+		margin: 0 0 0 1em;
+	}
+.vijesti time {
+	font-size: 90%;
+	font-style: italic;
+}
+footer {
+	background-color: #7a6f72;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+#contact {
+	margin: 2em
+}
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+video {
+	margin: 0 1em 1em 1em;
+	float: left;
+}
+
+.galerija img
+{
+    
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+	height: 250px;
+	margin: 0 0 0 1em;
+}
+
+.galerija figure {
+		padding: 0.5em;
+		margin: 0 0.5em 0.5em 0.5em;
+		float: left;
+		width: 20%;
+		border: 1px solid white;
+	}
+.galerija figcaption {
+		font-size: 90%;
+		height: 70px;
+		text-align: center;
+	}
